@@ -2,8 +2,6 @@ import 'package:book_store/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-//scadkcmadkm
-
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
@@ -59,16 +57,6 @@ class SplashScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                ),
-              ),
-            ),
-            Text(
-              'Already have an account? Login',
-              style: GoogleFonts.plusJakartaSans(
-                textStyle: const TextStyle(
-                  color: kWhiteColor,
-                  fontSize: 16,
-                  fontWeight: FontWeight.normal,
                 ),
               ),
             ),
